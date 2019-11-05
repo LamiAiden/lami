@@ -40,7 +40,8 @@ namespace lami.EntityFrameworkCore
             {
                 /* The main point to change your DBMS.
                  * See also lamiMigrationsDbContextFactory for EF Core tooling. */
-                options.UseSqlServer();
+                // options.UseSqlServer();
+                options.UseMySQL();
             });
         }
     }
